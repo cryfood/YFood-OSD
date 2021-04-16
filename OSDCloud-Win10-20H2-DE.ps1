@@ -26,12 +26,12 @@ Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSDCloud"
 
-Start-OSDCloud
+Start-OSDCloud -OSLanguage de-de -OSBuild 20H2 -OSEdition Pro -ZTI
 
 #Restart from WinPE
 
-Write-Host -ForegroundColor Green "Restarting in 20 seconds!"
+Write-Host -ForegroundColor Green "Restarting in 10 seconds!"
 
-Start-Sleep -Seconds 20
+Start-Sleep -Seconds 10
 
 wpeutil reboot
