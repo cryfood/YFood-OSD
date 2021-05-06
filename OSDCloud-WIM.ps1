@@ -26,7 +26,7 @@ Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSDCloud"
 
-Start-OSDCloud -FindImageFile -ZTI
+Start-OSDCloud -FindImageFile
 
 #Restart from WinPE
 
