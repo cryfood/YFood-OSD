@@ -1,6 +1,6 @@
 Write-Host -ForegroundColor Green "Starting OSDCloud ZTI"
 
-Start-Sleep -Seconds 5
+Start-Sleep -Seconds 1
 
 #Change Display Resolution for Virtual Machine
 
