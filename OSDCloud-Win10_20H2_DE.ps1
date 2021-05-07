@@ -26,8 +26,7 @@ Import-Module OSD -Force
 
 Write-Host -ForegroundColor Green "Start OSDCloud"
 
-#Start-OSDCloud -OSLanguage de-de -OSBuild 20H2 -OSEdition Pro -ZTI
-Start-OSDCloud -FindImageFile -ZTI
+Start-OSDCloud -OSLanguage de-de -OSBuild 20H2 -OSEdition Pro -ZTI
 
 #Restart from WinPE
 
