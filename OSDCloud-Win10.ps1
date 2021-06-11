@@ -28,8 +28,8 @@ Start-OSDCloud -FindImageFile -ZTI
 
 #Restart from WinPE
 
-Write-Host -ForegroundColor Green "Restarting in 10 seconds!"
+#Write-Host -ForegroundColor Green "Restarting in 10 seconds!"
 
-Start-Sleep -Seconds 10
+#Start-Sleep -Seconds 10
 
-wpeutil reboot
+#wpeutil reboot
